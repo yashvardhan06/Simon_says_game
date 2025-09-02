@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-title">
+            <h1>SIMON SAYS</h1>
+            <div class="score-container">
+                <span>High Score: <span id="highScore">0</span></span>
+                <span>Current Score: <span id="currentScore">0</span></span>
+            </div>
+        </div>
+
+        <div class="game-board">
+            <div class="button green" data-color="green"></div>
+            <div class="button red" data-color="red"></div>
+            <div class="button blue" data-color="blue"></div>
+            <div class="button yellow" data-color="yellow"></div>
+            <div class="level-overlay">
+                <span class="level-number"></span>
+            </div>
+        </div>
+
+        <div class="game-controls">
+            <div class="level">Level <span id="level">0</span></div>
+            <button id="startBtn">START</button>
+        </div>
+
+        <div class="game-info">
+            <div class="status" id="status">Press START to play</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
